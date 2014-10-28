@@ -1,0 +1,50 @@
+/*
+SD 卡：http://i.imgur.com/c2Z5au0.png
+電池：http://i.imgur.com/NFwOBqW.png
+耳機：http://i.imgur.com/stm47RT.png
+醜醜手機殼：http://i.imgur.com/aKkhCy6.png
+
+大字：40px
+大字框：70x185
+*/
+
+section{
+	width: 960px;
+	margin: 0 auto;
+}
+
+h3,ul,.cover{
+display: inline-block;
+vertical-align: top;
+}
+
+ul{
+	list-style-type: none;
+	padding-right:40px; 
+}
+
+h3{
+	font-size: 40px;
+	width: 1em;
+	border: #ccc 3px double;
+	padding:40px 15px;
+	line-height: 1.3;
+}
+
+figure{
+	border:#ccc 1px solid;
+	padding: 8px 16px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+li figure{
+	border-top-width: 0;
+}
+
+li figure:first-child{
+	border-top-width: 1px;
+};
